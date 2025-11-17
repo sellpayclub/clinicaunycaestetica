@@ -25,8 +25,7 @@ const Hero = () => {
       </video>
       
       {/* Dark overlay for text readability */}
-      <div className="absolute inset-0 bg-gradient-to-br from-luxury-navy/85 via-luxury-blue-dark/80 to-luxury-blue-dark/75"></div>
-      <div className="absolute inset-0 bg-black/30"></div>
+      <div className="absolute inset-0 bg-black/40"></div>
       
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10">
