@@ -28,7 +28,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center animate-fade-in">
           {/* Logo */}
-          <div className="mb-8 flex justify-center">
+          <div className="mb-8 flex justify-center animate-float">
             <img 
               src={logo} 
               alt="Clínica Unyca Estética" 
@@ -60,7 +60,7 @@ const Hero = () => {
           <Button 
             size="lg"
             onClick={handleLinktreeClick}
-            className="bg-luxury-gold hover:bg-luxury-gold/90 text-luxury-blue-dark font-semibold text-base md:text-lg px-6 md:px-8 py-5 md:py-6 rounded-full shadow-2xl hover:scale-105 transition-all duration-300 shine-effect w-auto mx-4"
+            className="bg-gradient-to-r from-luxury-gold via-luxury-gold-light to-luxury-gold hover:from-luxury-gold-dark hover:via-luxury-gold hover:to-luxury-gold-dark text-luxury-blue-dark font-semibold text-base md:text-lg px-6 md:px-8 py-5 md:py-6 rounded-full shadow-2xl hover:shadow-[0_0_40px_hsl(42_100%_65%/0.6)] hover:scale-105 transition-all duration-300 shine-effect animate-glow w-auto mx-4"
           >
             <MessageCircle className="mr-2 h-5 w-5" />
             Agende sua avaliação

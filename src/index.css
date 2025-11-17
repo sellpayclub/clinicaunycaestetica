@@ -51,9 +51,11 @@ All colors MUST be HSL.
     /* Premium Gradients */
     --gradient-luxury: linear-gradient(135deg, hsl(210 100% 15%) 0%, hsl(205 100% 35%) 50%, hsl(210 100% 25%) 100%);
     --gradient-gold: linear-gradient(135deg, hsl(42 100% 65%) 0%, hsl(45 100% 75%) 50%, hsl(42 100% 65%) 100%);
+    --gradient-gold-radial: radial-gradient(circle at 50% 50%, hsl(42 100% 75%), hsl(42 100% 65%), hsl(38 85% 52%));
     --gradient-hero: linear-gradient(135deg, hsl(215 95% 8% / 0.97) 0%, hsl(210 100% 15% / 0.95) 50%, hsl(205 100% 25% / 0.93) 100%);
     --gradient-overlay: linear-gradient(180deg, transparent 0%, hsl(0 0% 0% / 0.6) 100%);
     --gradient-shine: linear-gradient(90deg, transparent 0%, hsl(0 0% 100% / 0.15) 50%, transparent 100%);
+    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(40 35% 99%) 100%);
     
     /* Premium Shadows */
     --shadow-luxury: 0 25px 80px -15px hsl(205 100% 35% / 0.4);
@@ -61,6 +63,7 @@ All colors MUST be HSL.
     --shadow-soft: 0 8px 30px hsl(210 20% 40% / 0.12);
     --shadow-deep: 0 30px 90px -20px hsl(0 0% 0% / 0.3);
     --shadow-glow: 0 0 60px hsl(42 100% 65% / 0.3);
+    --shadow-elevated: 0 20px 60px -15px hsl(0 0% 0% / 0.2), 0 10px 20px -5px hsl(0 0% 0% / 0.1);
     
     /* Premium Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -248,5 +251,37 @@ All colors MUST be HSL.
   .pulse-glow {
     animation: pulse-glow 2s ease-in-out infinite;
     will-change: box-shadow;
+  }
+  
+  .premium-card {
+    background: var(--gradient-card);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-elevated);
+    transition: var(--transition-elegant);
+  }
+  
+  .premium-card:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: var(--shadow-luxury);
+  }
+  
+  @keyframes shimmer {
+    0% {
+      background-position: -1000px 0;
+    }
+    100% {
+      background-position: 1000px 0;
+    }
+  }
+  
+  .shimmer-effect {
+    background: linear-gradient(
+      90deg,
+      transparent 0%,
+      hsl(42 100% 75% / 0.3) 50%,
+      transparent 100%
+    );
+    background-size: 1000px 100%;
+    animation: shimmer 3s infinite;
   }
 }

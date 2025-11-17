@@ -21,10 +21,10 @@ const Differentials = () => {
             {differentials.map((item, index) => (
               <Card 
                 key={index}
-                className="p-6 hover-lift bg-card border-luxury-gold/20 hover:border-luxury-gold transition-all duration-300"
+                className="premium-card p-6 bg-card border-luxury-gold/20 hover:border-luxury-gold transition-all duration-500 group"
               >
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-br from-luxury-gold to-luxury-gold-light flex items-center justify-center shadow-lg">
+                  <div className="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-br from-luxury-gold via-luxury-gold-light to-luxury-gold flex items-center justify-center shadow-lg group-hover:shadow-[0_0_25px_hsl(42_100%_65%/0.5)] transition-all duration-300">
                     <Check className="h-5 w-5 text-primary" />
                   </div>
                   <p className="text-lg font-medium text-foreground pt-1.5">
