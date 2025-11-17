@@ -1,6 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Instagram } from "lucide-react";
+import draLuisaImg from "@/assets/dra-luisa.jpg";
 import draLayanneImg from "@/assets/dra-layanne.jpg";
+import draRebecaImg from "@/assets/dra-rebeca.jpg";
 
 const specialists = [
   {
@@ -8,7 +10,7 @@ const specialists = [
     role: "Ginecologista",
     specialty: "Especialista em Menopausa e Climatério. Estética e Laser da Região Íntima. Cirurgias de Ninfoplastia e Rejuvenescimento Íntimo.",
     instagram: "https://www.instagram.com/luisagineco",
-    image: draLayanneImg, // Temporário - aguardando foto da Dra. Luísa
+    image: draLuisaImg,
     bio: [
       "Ginecologista pela UFPI",
       "Ginecologia Endócrina pela USP-SP",
@@ -27,6 +29,19 @@ const specialists = [
       "Pós-graduação em Hormonologia",
       "Pós-graduanda em Cirurgia Plástica",
       "Extremamente detalhista - os detalhes fazem a diferença",
+    ]
+  },
+  {
+    name: "Dra. Rebeca",
+    role: "Médica Nutróloga",
+    specialty: "Especialista em Performance Corporal, Reposição Hormonal e Tratamentos de Emagrecimento com Mounjaro. Especialista em Tratamento de Lipedema.",
+    instagram: "https://www.instagram.com/drarebeca",
+    image: draRebecaImg,
+    bio: [
+      "Pós-graduação em Nutrologia",
+      "Extensão em hormônios e implantes hormonais",
+      "Especialização em Lipedema",
+      "Transformando, fortalecendo e empoderando vidas",
     ]
   },
 ];
