@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Instagram } from "lucide-react";
+import draLayanneImg from "@/assets/dra-layanne.jpg";
 
 const specialists = [
   {
@@ -7,12 +8,25 @@ const specialists = [
     role: "Ginecologista",
     specialty: "Especialista em Menopausa e Climatério. Estética e Laser da Região Íntima. Cirurgias de Ninfoplastia e Rejuvenescimento Íntimo.",
     instagram: "https://www.instagram.com/luisagineco",
-    image: "/dra-luisa.jpg", // Placeholder - user will upload
+    image: draLayanneImg, // Temporário - aguardando foto da Dra. Luísa
     bio: [
       "Ginecologista pela UFPI",
       "Ginecologia Endócrina pela USP-SP",
       "Medicina com ética e respeito",
       "Defensora de um estilo de vida saudável",
+    ]
+  },
+  {
+    name: "Dra. Layanne",
+    role: "Cirurgiã Plástica",
+    specialty: "Especialista em Tratamento Avançado dos Glúteos. Estética Feminina em Geral, Harmonização Facial e Procedimentos Invasivos como Lipoaspirações.",
+    instagram: "https://www.instagram.com/dralayannepaixao",
+    image: draLayanneImg,
+    bio: [
+      "Formada no Rio de Janeiro",
+      "Pós-graduação em Hormonologia",
+      "Pós-graduanda em Cirurgia Plástica",
+      "Extremamente detalhista - os detalhes fazem a diferença",
     ]
   },
 ];
