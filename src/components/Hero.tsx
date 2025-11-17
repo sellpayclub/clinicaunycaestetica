@@ -25,7 +25,7 @@ const Hero = () => {
       </video>
       
       {/* Dark overlay for text readability */}
-      <div className="absolute inset-0 bg-black/40"></div>
+      <div className="absolute inset-0 bg-black/45"></div>
       
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10">
@@ -40,29 +40,29 @@ const Hero = () => {
           </div>
           
           {/* Main Tagline */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-primary-foreground mb-6 leading-tight">
-            🪞 Sua melhor versão<br />no espelho
+          <h1 className="text-3xl md:text-5xl lg:text-7xl font-serif font-bold text-primary-foreground mb-6 leading-tight tracking-tight">
+            Sua melhor versão<br />no espelho
           </h1>
           
           {/* Services */}
-          <div className="flex flex-wrap justify-center gap-3 md:gap-6 mb-8 text-primary-foreground/90">
-            <span className="text-lg md:text-xl font-medium">🔬 Cirurgias Premium</span>
+          <div className="flex flex-col md:flex-row flex-wrap justify-center gap-2 md:gap-6 mb-8 text-primary-foreground/90 px-4">
+            <span className="text-base md:text-xl font-medium">Cirurgias Premium</span>
             <span className="hidden md:inline text-luxury-gold text-2xl">•</span>
-            <span className="text-lg md:text-xl font-medium">Fotona</span>
+            <span className="text-base md:text-xl font-medium">Fotona</span>
             <span className="hidden md:inline text-luxury-gold text-2xl">•</span>
-            <span className="text-lg md:text-xl font-medium">Cuidados Multidisciplinares</span>
+            <span className="text-base md:text-xl font-medium">Cuidados Multidisciplinares</span>
           </div>
           
           {/* Specialties */}
-          <p className="text-xl md:text-2xl text-primary-foreground/80 mb-10 font-light">
-            🩺 Dermato | Nutrologia | Ginecologia
+          <p className="text-lg md:text-2xl text-primary-foreground/80 mb-10 font-light px-4">
+            Dermatologia | Nutrologia | Ginecologia
           </p>
           
           {/* CTA Button */}
           <Button 
             size="lg"
             onClick={handleWhatsAppClick}
-            className="bg-luxury-gold hover:bg-luxury-gold/90 text-luxury-blue-dark font-semibold text-lg px-8 py-6 rounded-full shadow-2xl hover:scale-105 transition-all duration-300 shine-effect"
+            className="bg-luxury-gold hover:bg-luxury-gold/90 text-luxury-blue-dark font-semibold text-base md:text-lg px-6 md:px-8 py-5 md:py-6 rounded-full shadow-2xl hover:scale-105 transition-all duration-300 shine-effect w-auto mx-4"
           >
             <MessageCircle className="mr-2 h-5 w-5" />
             Agende sua avaliação
