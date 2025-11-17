@@ -79,15 +79,15 @@ const Specialists = () => {
             {specialists.map((specialist, index) => (
               <Card 
                 key={index}
-                className="overflow-hidden hover-lift bg-card border-luxury-gold/20 hover:border-luxury-gold transition-all duration-300 group"
+                className="overflow-hidden premium-card bg-card border-luxury-gold/20 hover:border-luxury-gold transition-all duration-500 group"
               >
                 <div className="relative h-80 overflow-hidden">
                   <img 
                     src={specialist.image}
                     alt={specialist.name}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 </div>
                 
                 <CardContent className="p-6">
@@ -104,7 +104,7 @@ const Specialists = () => {
                       href={specialist.instagram}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="p-2 rounded-full bg-gradient-to-br from-luxury-gold to-luxury-gold-light hover:shadow-lg transition-all duration-300 hover:scale-110"
+                      className="p-2 rounded-full bg-gradient-to-br from-luxury-gold via-luxury-gold-light to-luxury-gold hover:shadow-[0_0_25px_hsl(42_100%_65%/0.6)] transition-all duration-300 hover:scale-110"
                       aria-label={`Instagram de ${specialist.name}`}
                     >
                       <Instagram className="h-5 w-5 text-primary" />
@@ -119,7 +119,7 @@ const Specialists = () => {
                     <ul className="space-y-2">
                       {specialist.bio.map((item, idx) => (
                         <li key={idx} className="flex items-start gap-2 text-sm text-muted-foreground">
-                          <div className="w-1.5 h-1.5 rounded-full bg-luxury-gold mt-1.5 flex-shrink-0"></div>
+                          <div className="w-1.5 h-1.5 rounded-full bg-luxury-gold mt-1.5 flex-shrink-0 animate-glow"></div>
                           <span>{item}</span>
                         </li>
                       ))}
