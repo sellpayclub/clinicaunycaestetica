@@ -46,7 +46,7 @@ const specialists = [
     ]
   },
   {
-    name: "Dra. Thays Tamaributi",
+    name: "Dra. Thays",
     role: "Dermatologista",
     specialty: "Especialista em Transplante Capilar e Tratamentos Capilares. Expertise em Tricologia e Procedimentos Avançados para Saúde dos Cabelos.",
     instagram: "https://www.instagram.com/dra.thaystamaributi",
