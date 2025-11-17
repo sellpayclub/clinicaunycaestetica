@@ -38,26 +38,34 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
     
-    /* Luxury Design Tokens */
-    --luxury-gold: 40 85% 65%;
-    --luxury-gold-light: 45 90% 85%;
+    /* Luxury Design Tokens - Ultra Premium */
+    --luxury-gold: 42 100% 65%;
+    --luxury-gold-dark: 38 85% 52%;
+    --luxury-gold-light: 45 100% 88%;
     --luxury-blue: 205 100% 35%;
-    --luxury-blue-dark: 210 100% 25%;
-    --luxury-cream: 40 40% 97%;
+    --luxury-blue-dark: 210 100% 15%;
+    --luxury-navy: 215 95% 8%;
+    --luxury-cream: 40 35% 98%;
+    --luxury-pearl: 0 0% 98%;
     
-    /* Gradients */
-    --gradient-luxury: linear-gradient(135deg, hsl(205 100% 35%) 0%, hsl(210 100% 45%) 100%);
-    --gradient-gold: linear-gradient(135deg, hsl(40 85% 65%) 0%, hsl(45 80% 75%) 100%);
-    --gradient-hero: linear-gradient(135deg, hsl(210 100% 12% / 0.95) 0%, hsl(205 100% 20% / 0.9) 100%);
+    /* Premium Gradients */
+    --gradient-luxury: linear-gradient(135deg, hsl(210 100% 15%) 0%, hsl(205 100% 35%) 50%, hsl(210 100% 25%) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(42 100% 65%) 0%, hsl(45 100% 75%) 50%, hsl(42 100% 65%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(215 95% 8% / 0.97) 0%, hsl(210 100% 15% / 0.95) 50%, hsl(205 100% 25% / 0.93) 100%);
+    --gradient-overlay: linear-gradient(180deg, transparent 0%, hsl(0 0% 0% / 0.6) 100%);
+    --gradient-shine: linear-gradient(90deg, transparent 0%, hsl(0 0% 100% / 0.15) 50%, transparent 100%);
     
-    /* Shadows */
-    --shadow-luxury: 0 20px 60px -10px hsl(205 100% 35% / 0.3);
-    --shadow-gold: 0 10px 40px -10px hsl(40 85% 65% / 0.4);
-    --shadow-soft: 0 4px 20px hsl(210 20% 40% / 0.08);
+    /* Premium Shadows */
+    --shadow-luxury: 0 25px 80px -15px hsl(205 100% 35% / 0.4);
+    --shadow-gold: 0 15px 50px -10px hsl(42 100% 65% / 0.5);
+    --shadow-soft: 0 8px 30px hsl(210 20% 40% / 0.12);
+    --shadow-deep: 0 30px 90px -20px hsl(0 0% 0% / 0.3);
+    --shadow-glow: 0 0 60px hsl(42 100% 65% / 0.3);
     
-    /* Animations */
-    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    /* Premium Animations */
+    --transition-smooth: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    --transition-elegant: all 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 
     --radius: 0.75rem;
 
@@ -158,18 +166,18 @@ All colors MUST be HSL.
   }
   
   .hover-lift:hover {
-    transform: translateY(-8px);
-    box-shadow: var(--shadow-luxury);
+    transform: translateY(-12px) scale(1.02);
+    box-shadow: var(--shadow-deep);
   }
   
   .fade-in {
-    animation: fadeIn 0.8s ease-out;
+    animation: fadeIn 1s ease-out;
   }
   
   @keyframes fadeIn {
     from {
       opacity: 0;
-      transform: translateY(30px);
+      transform: translateY(40px);
     }
     to {
       opacity: 1;
@@ -189,11 +197,51 @@ All colors MUST be HSL.
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
-    transition: left 0.7s;
+    background: var(--gradient-shine);
+    transition: left 0.8s;
+    z-index: 1;
   }
   
   .shine-effect:hover::before {
     left: 100%;
+  }
+  
+  .glass-effect {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .text-gradient-gold {
+    background: var(--gradient-gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  .float-animation {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  @keyframes pulse-glow {
+    0%, 100% {
+      box-shadow: 0 0 20px hsl(42 100% 65% / 0.3);
+    }
+    50% {
+      box-shadow: 0 0 40px hsl(42 100% 65% / 0.6);
+    }
+  }
+  
+  .pulse-glow {
+    animation: pulse-glow 3s ease-in-out infinite;
   }
 }

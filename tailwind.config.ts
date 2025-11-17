@@ -49,10 +49,13 @@ export default {
         },
         luxury: {
           gold: "hsl(var(--luxury-gold))",
+          "gold-dark": "hsl(var(--luxury-gold-dark))",
           "gold-light": "hsl(var(--luxury-gold-light))",
           blue: "hsl(var(--luxury-blue))",
           "blue-dark": "hsl(var(--luxury-blue-dark))",
+          navy: "hsl(var(--luxury-navy))",
           cream: "hsl(var(--luxury-cream))",
+          pearl: "hsl(var(--luxury-pearl))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
