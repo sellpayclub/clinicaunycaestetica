@@ -13,6 +13,7 @@ const Footer = () => {
                 src={logoWhite} 
                 alt="Clínica Unyca" 
                 className="h-24 w-auto"
+                loading="lazy"
               />
               <p className="text-primary-foreground/80 text-sm leading-relaxed max-w-md">
                 Clínica especializada em estética e cirurgias plásticas premium. 

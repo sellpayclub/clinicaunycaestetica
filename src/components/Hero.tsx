@@ -15,6 +15,7 @@ const Hero = () => {
         loop 
         muted 
         playsInline
+        preload="auto"
         className="absolute inset-0 w-full h-full object-cover"
       >
         <source src="/hero-video.mp4" type="video/mp4" />
@@ -32,6 +33,7 @@ const Hero = () => {
               src={logo} 
               alt="Clínica Unyca Estética" 
               className="h-32 md:h-48 w-auto drop-shadow-2xl"
+              fetchPriority="high"
             />
           </div>
           
