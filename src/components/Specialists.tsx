@@ -104,7 +104,7 @@ const Specialists = () => {
                       href={specialist.instagram}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="p-2 rounded-full bg-gradient-to-br from-luxury-gold via-luxury-gold-light to-luxury-gold hover:shadow-[0_0_25px_hsl(42_100%_65%/0.6)] transition-all duration-300 hover:scale-110"
+                      className="p-2 rounded-full bg-gradient-to-br from-luxury-gold via-luxury-gold-light to-luxury-gold hover:shadow-[0_0_20px_hsl(38_70%_55%/0.4)] transition-all duration-300 hover:scale-110"
                       aria-label={`Instagram de ${specialist.name}`}
                     >
                       <Instagram className="h-5 w-5 text-primary" />
@@ -119,7 +119,7 @@ const Specialists = () => {
                     <ul className="space-y-2">
                       {specialist.bio.map((item, idx) => (
                         <li key={idx} className="flex items-start gap-2 text-sm text-muted-foreground">
-                          <div className="w-1.5 h-1.5 rounded-full bg-luxury-gold mt-1.5 flex-shrink-0 animate-glow"></div>
+                          <div className="w-1.5 h-1.5 rounded-full bg-luxury-gold mt-1.5 flex-shrink-0"></div>
                           <span>{item}</span>
                         </li>
                       ))}
