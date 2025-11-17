@@ -33,7 +33,6 @@ const Procedures = () => {
               <Card 
                 key={index}
                 className="p-6 hover-lift bg-card border-border hover:border-luxury-gold/40 transition-all duration-300 group cursor-pointer"
-                style={{ animationDelay: `${index * 50}ms` }}
               >
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 rounded-full bg-gradient-to-r from-luxury-gold to-luxury-gold-light group-hover:scale-150 transition-transform duration-300"></div>
