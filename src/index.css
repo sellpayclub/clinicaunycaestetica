@@ -39,9 +39,9 @@ All colors MUST be HSL.
     --radius: 0.75rem;
     
     /* Luxury Design Tokens - Ultra Premium */
-    --luxury-gold: 42 100% 65%;
-    --luxury-gold-dark: 38 85% 52%;
-    --luxury-gold-light: 45 100% 88%;
+    --luxury-gold: 38 70% 55%;
+    --luxury-gold-dark: 35 65% 45%;
+    --luxury-gold-light: 42 75% 70%;
     --luxury-blue: 205 100% 35%;
     --luxury-blue-dark: 210 100% 15%;
     --luxury-navy: 215 95% 8%;
@@ -50,8 +50,8 @@ All colors MUST be HSL.
     
     /* Premium Gradients */
     --gradient-luxury: linear-gradient(135deg, hsl(210 100% 15%) 0%, hsl(205 100% 35%) 50%, hsl(210 100% 25%) 100%);
-    --gradient-gold: linear-gradient(135deg, hsl(42 100% 65%) 0%, hsl(45 100% 75%) 50%, hsl(42 100% 65%) 100%);
-    --gradient-gold-radial: radial-gradient(circle at 50% 50%, hsl(42 100% 75%), hsl(42 100% 65%), hsl(38 85% 52%));
+    --gradient-gold: linear-gradient(135deg, hsl(35 65% 45%) 0%, hsl(38 70% 55%) 50%, hsl(42 75% 70%) 100%);
+    --gradient-gold-radial: radial-gradient(circle at 50% 50%, hsl(42 75% 70%), hsl(38 70% 55%), hsl(35 65% 45%));
     --gradient-hero: linear-gradient(135deg, hsl(215 95% 8% / 0.97) 0%, hsl(210 100% 15% / 0.95) 50%, hsl(205 100% 25% / 0.93) 100%);
     --gradient-overlay: linear-gradient(180deg, transparent 0%, hsl(0 0% 0% / 0.6) 100%);
     --gradient-shine: linear-gradient(90deg, transparent 0%, hsl(0 0% 100% / 0.15) 50%, transparent 100%);
@@ -59,10 +59,10 @@ All colors MUST be HSL.
     
     /* Premium Shadows */
     --shadow-luxury: 0 25px 80px -15px hsl(205 100% 35% / 0.4);
-    --shadow-gold: 0 15px 50px -10px hsl(42 100% 65% / 0.5);
+    --shadow-gold: 0 15px 50px -10px hsl(38 70% 55% / 0.4);
     --shadow-soft: 0 8px 30px hsl(210 20% 40% / 0.12);
     --shadow-deep: 0 30px 90px -20px hsl(0 0% 0% / 0.3);
-    --shadow-glow: 0 0 60px hsl(42 100% 65% / 0.3);
+    --shadow-glow: 0 0 60px hsl(38 70% 55% / 0.25);
     --shadow-elevated: 0 20px 60px -15px hsl(0 0% 0% / 0.2), 0 10px 20px -5px hsl(0 0% 0% / 0.1);
     
     /* Premium Animations */
