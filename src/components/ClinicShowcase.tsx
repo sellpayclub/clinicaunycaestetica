@@ -13,6 +13,7 @@ const ClinicShowcase = () => {
                   loop 
                   muted 
                   playsInline
+                  preload="none"
                   className="relative rounded-2xl shadow-2xl w-full h-auto object-cover"
                 >
                   <source src="/hero-video.mp4" type="video/mp4" />
