@@ -3,12 +3,8 @@ import { MessageCircle } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 const Hero = () => {
-  const whatsappNumber = "5511930637398";
-  const whatsappMessage = "Olá! Gostaria de agendar uma avaliação na Clínica Unyca.";
-  
-  const handleWhatsAppClick = () => {
-    const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
-    window.open(url, '_blank');
+  const handleLinktreeClick = () => {
+    window.open('https://linktr.ee/unycaclinicaestetica', '_blank');
   };
 
   return (
@@ -61,7 +57,7 @@ const Hero = () => {
           {/* CTA Button */}
           <Button 
             size="lg"
-            onClick={handleWhatsAppClick}
+            onClick={handleLinktreeClick}
             className="bg-luxury-gold hover:bg-luxury-gold/90 text-luxury-blue-dark font-semibold text-base md:text-lg px-6 md:px-8 py-5 md:py-6 rounded-full shadow-2xl hover:scale-105 transition-all duration-300 shine-effect w-auto mx-4"
           >
             <MessageCircle className="mr-2 h-5 w-5" />

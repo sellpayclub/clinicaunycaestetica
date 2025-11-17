@@ -2,12 +2,8 @@ import { MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const WhatsAppButton = () => {
-  const whatsappNumber = "5511930637398";
-  const whatsappMessage = "Olá! Gostaria de agendar uma avaliação na Clínica Unyca.";
-  
   const handleClick = () => {
-    const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
-    window.open(url, '_blank');
+    window.open('https://linktr.ee/unycaclinicaestetica', '_blank');
   };
 
   return (
