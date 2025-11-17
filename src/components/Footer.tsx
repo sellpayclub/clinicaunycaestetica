@@ -1,4 +1,4 @@
-import { MapPin, Phone } from "lucide-react";
+import { MapPin, Phone, Instagram } from "lucide-react";
 import logoWhite from "@/assets/logo-white.png";
 
 const Footer = () => {
@@ -49,6 +49,23 @@ const Footer = () => {
                     className="text-primary-foreground/80 hover:text-luxury-gold transition-colors"
                   >
                     (11) 93063-7398
+                  </a>
+                </div>
+              </div>
+              
+              <div className="flex items-start gap-4">
+                <div className="w-10 h-10 rounded-full bg-luxury-gold/20 flex items-center justify-center flex-shrink-0">
+                  <Instagram className="h-5 w-5 text-luxury-gold" />
+                </div>
+                <div className="text-sm">
+                  <p className="font-semibold mb-1">Instagram:</p>
+                  <a 
+                    href="https://www.instagram.com/clinicaunyca/" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-foreground/80 hover:text-luxury-gold transition-colors"
+                  >
+                    @clinicaunyca
                   </a>
                 </div>
               </div>
