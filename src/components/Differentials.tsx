@@ -22,7 +22,6 @@ const Differentials = () => {
               <Card 
                 key={index}
                 className="p-6 hover-lift bg-card border-luxury-gold/20 hover:border-luxury-gold transition-all duration-300"
-                style={{ animationDelay: `${index * 100}ms` }}
               >
                 <div className="flex items-start gap-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-br from-luxury-gold to-luxury-gold-light flex items-center justify-center shadow-lg">
