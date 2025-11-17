@@ -3,6 +3,7 @@ import { Instagram } from "lucide-react";
 import draLuisaImg from "@/assets/dra-luisa.jpg";
 import draLayanneImg from "@/assets/dra-layanne.jpg";
 import draRebecaImg from "@/assets/dra-rebeca.jpg";
+import draThaysImg from "@/assets/dra-thays.jpg";
 
 const specialists = [
   {
@@ -44,6 +45,19 @@ const specialists = [
       "Transformando, fortalecendo e empoderando vidas",
     ]
   },
+  {
+    name: "Dra. Thays Tamaributi",
+    role: "Dermatologista",
+    specialty: "Especialista em Transplante Capilar e Tratamentos Capilares. Expertise em Tricologia e Procedimentos Avançados para Saúde dos Cabelos.",
+    instagram: "https://www.instagram.com/dra.thaystamaributi",
+    image: draThaysImg,
+    bio: [
+      "Formação em Nutrição e Medicina",
+      "Ex-atleta da Seleção Brasileira de Natação",
+      "Pós-graduação em Dermatologia, Tricologia e Transplante Capilar",
+      "Guerreira, detalhista e comprometida com resultados",
+    ]
+  },
 ];
 
 const Specialists = () => {
@@ -61,7 +75,7 @@ const Specialists = () => {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {specialists.map((specialist, index) => (
               <Card 
                 key={index}
