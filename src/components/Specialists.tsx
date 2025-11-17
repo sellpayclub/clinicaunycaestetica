@@ -4,6 +4,7 @@ import draLuisaImg from "@/assets/dra-luisa.jpg";
 import draLayanneImg from "@/assets/dra-layanne.jpg";
 import draRebecaImg from "@/assets/dra-rebeca.jpg";
 import draThaysImg from "@/assets/dra-thays.jpg";
+import drCarlosImg from "@/assets/dr-carlos.jpg";
 
 const specialists = [
   {
@@ -56,6 +57,19 @@ const specialists = [
       "Ex-atleta da Seleção Brasileira de Natação",
       "Pós-graduação em Dermatologia, Tricologia e Transplante Capilar",
       "Guerreira, detalhista e comprometida com resultados",
+    ]
+  },
+  {
+    name: "Dr. Carlos J. Gaspar Jr",
+    role: "Cirurgião Plástico",
+    specialty: "Membro da Sociedade Brasileira de Cirurgia Plástica. Especialista em Laser FOTONA e Cirurgias Plásticas Corporais, Lipoescultura, Abdominoplastia, Cirurgias das Mamas e Blefaroplastias.",
+    instagram: "https://www.instagram.com/drcgaspar",
+    image: drCarlosImg,
+    bio: [
+      "Cristão e pai dos gêmeos Lucas & Laura",
+      "Especialista em Laser FOTONA",
+      "Adora esportes, especialmente academia e musculação",
+      "Comprometido com estilo de vida saudável de suas pacientes",
     ]
   },
 ];
