@@ -8,16 +8,15 @@ const ClinicShowcase = () => {
             <div className="order-2 md:order-1 animate-fade-in">
               <div className="relative">
                 <div className="absolute -inset-4 bg-gradient-to-r from-luxury-gold to-luxury-gold-light rounded-3xl opacity-20 blur-2xl"></div>
-                <video 
-                  autoPlay 
-                  loop 
-                  muted 
-                  playsInline
-                  preload="auto"
-                  className="relative rounded-2xl shadow-2xl w-full h-auto object-cover"
-                >
-                  <source src="/hero-video.mp4" type="video/mp4" />
-                </video>
+                <iframe 
+                  className="relative rounded-2xl shadow-2xl w-full aspect-video"
+                  src="https://www.youtube.com/embed/px9DExPR9SY?autoplay=1&mute=1&loop=1&playlist=px9DExPR9SY"
+                  title="Clínica Unyca - Alphaville"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                />
               </div>
             </div>
             
