@@ -8,6 +8,7 @@ import drCarlosImg from "@/assets/dr-carlos.jpg";
 import drAlexandreImg from "@/assets/dr-alexandre.jpg";
 import draStellaImg from "@/assets/dra-stella.jpg";
 import draDeniseImg from "@/assets/dra-denise.jpg";
+import draCarinaImg from "@/assets/dra-carina.jpg";
 
 const specialists = [
   {
@@ -114,6 +115,19 @@ const specialists = [
       "Cuidado global alinhando saúde, beleza e estilo de vida",
     ]
   },
+  {
+    name: "Dra. Carina Guidi",
+    role: "Fisioterapeuta Dermatofuncional",
+    specialty: "Especialista em Pré e Pós-operatório de Cirurgias Plásticas e Reparadoras. Protocolos Personalizados com Taping, Laser, Exercícios e Drenagem Linfática.",
+    instagram: "https://www.instagram.com/dracarinaguidi.fisioterapia",
+    image: draCarinaImg,
+    bio: [
+      "Pós-graduada em Fisioterapia Dermatofuncional",
+      "Especialista em pré e pós-operatório",
+      "Praticante de atividades físicas e apaixonada por natação",
+      "Foco em recuperação segura, acolhedora e funcional",
+    ]
+  },
 ];
 
 const Specialists = () => {
@@ -141,7 +155,7 @@ const Specialists = () => {
                   <img 
                     src={specialist.image}
                     alt={specialist.name}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-full object-cover object-[center_20%] transition-transform duration-700 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 </div>
