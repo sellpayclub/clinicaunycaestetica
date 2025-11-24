@@ -5,6 +5,9 @@ import draLayanneImg from "@/assets/dra-layanne.jpg";
 import draRebecaImg from "@/assets/dra-rebeca.jpg";
 import draThaysImg from "@/assets/dra-thays.jpg";
 import drCarlosImg from "@/assets/dr-carlos.jpg";
+import drAlexandreImg from "@/assets/dr-alexandre.jpg";
+import draStellaImg from "@/assets/dra-stella.jpg";
+import draDeniseImg from "@/assets/dra-denise.jpg";
 
 const specialists = [
   {
@@ -37,7 +40,7 @@ const specialists = [
     name: "Dra. Rebeca",
     role: "Médica Nutróloga",
     specialty: "Especialista em Performance Corporal, Reposição Hormonal e Tratamentos de Emagrecimento com Mounjaro. Especialista em Tratamento de Lipedema.",
-    instagram: "https://www.instagram.com/drarebeca",
+    instagram: "https://www.instagram.com/dralaizerebeca/",
     image: draRebecaImg,
     bio: [
       "Pós-graduação em Nutrologia",
@@ -63,13 +66,52 @@ const specialists = [
     name: "Dr. Carlos J. Gaspar Jr",
     role: "Cirurgião Plástico",
     specialty: "Membro da Sociedade Brasileira de Cirurgia Plástica. Especialista em Laser FOTONA e Cirurgias Plásticas Corporais, Lipoescultura, Abdominoplastia, Cirurgias das Mamas e Blefaroplastias.",
-    instagram: "https://www.instagram.com/drcgaspar",
+    instagram: "https://www.instagram.com/drgasparjr",
     image: drCarlosImg,
     bio: [
       "Cristão e pai dos gêmeos Lucas & Laura",
       "Especialista em Laser FOTONA",
       "Adora esportes, especialmente academia e musculação",
       "Comprometido com estilo de vida saudável de suas pacientes",
+    ]
+  },
+  {
+    name: "Dr. Alexandre Palaro Braga",
+    role: "Otorrinolaringologista",
+    specialty: "Especialista em Rinologia e Cirurgias da Face com Ênfase em Rinoplastia. Chefe do Ambulatório de Rinologia e Plástica Facial do HCFMB Unesp.",
+    instagram: "https://www.instagram.com/dralexandrebraga",
+    image: drAlexandreImg,
+    bio: [
+      "Esposo da Talita e pai orgulhoso da Antonella",
+      "Médico pela Famerp, Otorrinolaringologista pela Unesp",
+      "Rinologista e Mestre pela Unesp",
+      "Revela sua beleza - sua melhor versão",
+    ]
+  },
+  {
+    name: "Dra. Stella Catunda",
+    role: "Ginecologista",
+    specialty: "Ginecologista pelo Hospital da Mulher - Pérola Byington. Pós-graduação em Ginecologia Endócrina e Mestrado em Climatério pela Unifesp.",
+    instagram: "https://www.instagram.com/stellacatunda",
+    image: draStellaImg,
+    bio: [
+      "Formação pelo Hospital da Mulher - Pérola Byington",
+      "Pós-graduação em Ginecologia Endócrina pela Unifesp",
+      "Mestrado em Climatério pela Unifesp",
+      "Especialista em saúde feminina integral",
+    ]
+  },
+  {
+    name: "Dra. Denise Medrado",
+    role: "Esteticista e Nutricionista",
+    specialty: "Mais de 20 anos de experiência em Rejuvenescimento Facial com Tecnologias a Laser e Protocolos Estéticos Avançados. Acompanhamento Nutricional Clínico e Estético.",
+    instagram: "https://www.instagram.com/denisemedrado_/",
+    image: draDeniseImg,
+    bio: [
+      "Esteticista, Cosmetóloga e Nutricionista",
+      "Pós-graduação em Nutrição Clínica pela USP",
+      "Especialista em rejuvenescimento facial com laser",
+      "Cuidado global alinhando saúde, beleza e estilo de vida",
     ]
   },
 ];
