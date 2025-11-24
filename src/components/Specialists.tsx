@@ -12,6 +12,7 @@ import draCarinaImg from "@/assets/dra-carina.jpg";
 import draCrisImg from "@/assets/dra-cris.jpg";
 import drLuisImg from "@/assets/dr-luis.jpg";
 import draJulianaImg from "@/assets/dra-juliana.jpg";
+import drGustavoImg from "@/assets/dr-gustavo.jpg";
 
 const specialists = [
   {
@@ -168,6 +169,19 @@ const specialists = [
       "Pós-graduada (3 anos) em Dermatologia pela Faculdade BWS",
       "Fellow em Cosmiatria pelo Instituto Boggio",
       "Medicina que cuida da beleza com saúde e naturalidade",
+    ]
+  },
+  {
+    name: "Dr. Gustavo & Dr. Rafael Rojo",
+    role: "Instituto Odontológico GR",
+    specialty: "Especialistas em Transformar Vidas através do Sorriso com Lentes de Contato Dental de Porcelana Ultra Finas. Técnica Minimamente Invasiva sem Desgaste.",
+    instagram: "https://www.instagram.com/drgustavorojo",
+    image: drGustavoImg,
+    bio: [
+      "Irmãos especialistas em Odontologia Estética",
+      "Dr. Rafael: 7 anos de experiência em Milão, Itália",
+      "Técnica minimamente invasiva para lentes sem desgaste",
+      "Transformação do sorriso em apenas 2 sessões - Lente com Cara de Dente",
     ]
   },
 ];
