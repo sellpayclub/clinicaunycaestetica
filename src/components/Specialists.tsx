@@ -9,6 +9,9 @@ import drAlexandreImg from "@/assets/dr-alexandre.jpg";
 import draStellaImg from "@/assets/dra-stella.jpg";
 import draDeniseImg from "@/assets/dra-denise.jpg";
 import draCarinaImg from "@/assets/dra-carina.jpg";
+import draCrisImg from "@/assets/dra-cris.jpg";
+import drLuisImg from "@/assets/dr-luis.jpg";
+import draJulianaImg from "@/assets/dra-juliana.jpg";
 
 const specialists = [
   {
@@ -126,6 +129,45 @@ const specialists = [
       "Especialista em pré e pós-operatório",
       "Praticante de atividades físicas e apaixonada por natação",
       "Foco em recuperação segura, acolhedora e funcional",
+    ]
+  },
+  {
+    name: "Dra. Cris Silveira",
+    role: "Médica Nutróloga",
+    specialty: "Especialista em Emagrecimento, Performance e Reposição Hormonal. Ex-atleta de Fisiculturismo, competiu no Mr Olympia.",
+    instagram: "https://www.instagram.com/dracrissilveira",
+    image: draCrisImg,
+    bio: [
+      "11 anos de formação em Medicina",
+      "Ex-atleta de fisiculturismo, competiu no Mr Olympia",
+      "Academia como terapia e estilo de vida",
+      "Leonina com muito Shine e Glow, sempre otimista",
+    ]
+  },
+  {
+    name: "Dr. Luis Pascoal",
+    role: "Dermatologista",
+    specialty: "Especialista em Dermatologia pela AMB e SBD. Professor de Pós-Graduação e Convidado em Congressos Nacionais e Internacionais.",
+    instagram: "https://www.instagram.com/drluispascoal",
+    image: drLuisImg,
+    bio: [
+      "Graduado em Medicina em 2006 pela Faculdade de Teresópolis",
+      "Especialista pela AMB e Sociedade Brasileira de Dermatologia",
+      "Professor no Instituto BWS e Instituto Evolution",
+      "Membro da Sociedade Brasileira de Dermatologia",
+    ]
+  },
+  {
+    name: "Dra. Juliana Rodante",
+    role: "Dermatologista / Cosmiatria",
+    specialty: "Especialista em Cuidados da Pele e Cabelos, com Especialização em Cosmiatria (Medicina Estética).",
+    instagram: "https://www.instagram.com/dra.jurodante",
+    image: draJulianaImg,
+    bio: [
+      "Médica pela UFMG",
+      "Pós-graduada (3 anos) em Dermatologia pela Faculdade BWS",
+      "Fellow em Cosmiatria pelo Instituto Boggio",
+      "Medicina que cuida da beleza com saúde e naturalidade",
     ]
   },
 ];
