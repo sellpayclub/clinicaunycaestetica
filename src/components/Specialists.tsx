@@ -44,7 +44,7 @@ const specialists = [
   },
   {
     name: "Dra. Rebeca",
-    role: "Nutróloga",
+    role: "Nutrologia",
     specialty: "Especialista em Performance Corporal, Reposição Hormonal e Tratamentos de Emagrecimento com Mounjaro. Especialista em Tratamento de Lipedema.",
     instagram: "https://www.instagram.com/dralaizerebeca/",
     image: draRebecaImg,
@@ -135,7 +135,7 @@ const specialists = [
   },
   {
     name: "Dra. Cris Silveira",
-    role: "Nutróloga",
+    role: "Nutrologia",
     specialty: "Especialista em Emagrecimento, Performance e Reposição Hormonal. Ex-atleta de Fisiculturismo, competiu no Mr Olympia.",
     instagram: "https://www.instagram.com/dracrissilveira",
     image: draCrisImg,
@@ -161,7 +161,7 @@ const specialists = [
   },
   {
     name: "Dra. Juliana Rodante",
-    role: "Dermatologista",
+    role: "Dermatologia",
     specialty: "Especialista em Cuidados da Pele e Cabelos, com Especialização em Cosmiatria (Medicina Estética).",
     instagram: "https://www.instagram.com/dra.jurodante",
     image: draJulianaImg,
