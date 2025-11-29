@@ -1,4 +1,5 @@
 import { Card } from "@/components/ui/card";
+import { TestTube } from "lucide-react";
 
 const procedures = [
   "Abdominoplastia",
@@ -14,6 +15,7 @@ const procedures = [
   "Prótese de Recuperação Rápida (R24R)",
   "Prótese De Silicone",
   "Pós Bariátrica",
+  "Rinoplastia",
 ];
 
 const Procedures = () => {
@@ -42,6 +44,27 @@ const Procedures = () => {
                 </div>
               </Card>
             ))}
+          </div>
+
+          {/* Coleta de Exames de Sangue */}
+          <div className="mt-12">
+            <Card className="p-8 bg-gradient-to-br from-primary/5 to-luxury-gold/10 border-luxury-gold/30 hover:border-luxury-gold/50 transition-all duration-300">
+              <div className="flex flex-col md:flex-row items-center gap-6">
+                <div className="p-4 rounded-full bg-gradient-to-br from-luxury-gold to-luxury-gold-light">
+                  <TestTube className="h-10 w-10 text-primary" />
+                </div>
+                <div className="text-center md:text-left">
+                  <h3 className="text-2xl font-serif font-bold text-primary mb-2">
+                    Coleta de Exames de Sangue
+                  </h3>
+                  <p className="text-foreground/80 text-lg">
+                    Realize seus exames de sangue diretamente na clínica durante sua consulta. 
+                    <span className="text-luxury-gold font-semibold"> Mais praticidade e conforto</span> para você, 
+                    tudo em um só lugar.
+                  </p>
+                </div>
+              </div>
+            </Card>
           </div>
         </div>
       </div>

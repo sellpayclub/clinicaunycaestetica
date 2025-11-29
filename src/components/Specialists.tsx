@@ -13,6 +13,7 @@ import draCrisImg from "@/assets/dra-cris.jpg";
 import drLuisImg from "@/assets/dr-luis.jpg";
 import draJulianaImg from "@/assets/dra-juliana.jpg";
 import drGustavoImg from "@/assets/dr-gustavo.jpg";
+import draThalitaImg from "@/assets/dra-thalita.jpg";
 
 const specialists = [
   {
@@ -43,7 +44,7 @@ const specialists = [
   },
   {
     name: "Dra. Rebeca",
-    role: "Médica Nutróloga",
+    role: "Nutróloga",
     specialty: "Especialista em Performance Corporal, Reposição Hormonal e Tratamentos de Emagrecimento com Mounjaro. Especialista em Tratamento de Lipedema.",
     instagram: "https://www.instagram.com/dralaizerebeca/",
     image: draRebecaImg,
@@ -134,7 +135,7 @@ const specialists = [
   },
   {
     name: "Dra. Cris Silveira",
-    role: "Médica Nutróloga",
+    role: "Nutróloga",
     specialty: "Especialista em Emagrecimento, Performance e Reposição Hormonal. Ex-atleta de Fisiculturismo, competiu no Mr Olympia.",
     instagram: "https://www.instagram.com/dracrissilveira",
     image: draCrisImg,
@@ -160,7 +161,7 @@ const specialists = [
   },
   {
     name: "Dra. Juliana Rodante",
-    role: "Dermatologista / Cosmiatria",
+    role: "Dermatologista",
     specialty: "Especialista em Cuidados da Pele e Cabelos, com Especialização em Cosmiatria (Medicina Estética).",
     instagram: "https://www.instagram.com/dra.jurodante",
     image: draJulianaImg,
@@ -182,6 +183,19 @@ const specialists = [
       "Dr. Rafael: 7 anos de experiência em Milão, Itália",
       "Técnica minimamente invasiva para lentes sem desgaste",
       "Transformação do sorriso em apenas 2 sessões - Lente com Cara de Dente",
+    ]
+  },
+  {
+    name: "Dra. Thalita",
+    role: "Biomédica Esteta",
+    specialty: "Especialista em Harmonização Facial (Perfiloplastia), Laser Fotona, Laser de CO₂, Bioestimulador de Colágeno, Ultrassom Micro e Macro Focado e Protocolos de Rejuvenescimento com Peeling Químico.",
+    instagram: "#",
+    image: draThalitaImg,
+    bio: [
+      "Biomédica com Pós-graduação em Biomedicina Estética Avançada",
+      "Formada também em Administração e Gestão da Qualidade",
+      "Mais de 8 anos de experiência em saúde, estética e bem-estar",
+      "Resultados naturais, seguros e que elevam a autoconfiança",
     ]
   },
 ];
