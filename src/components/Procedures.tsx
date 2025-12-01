@@ -6,6 +6,7 @@ const procedures = [
   "Blefaroplastia",
   "Correção de Ginecomastia",
   "FaceLift",
+  "Implante Capilar",
   "Lipo HD",
   "Mamoplastia Redutora",
   "Mastopexia",
