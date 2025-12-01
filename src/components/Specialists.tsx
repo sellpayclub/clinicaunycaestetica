@@ -31,7 +31,7 @@ const specialists = [
   },
   {
     name: "Dra. Layanne",
-    role: "Cirurgiã Plástica",
+    role: "Cirurgia Plástica",
     specialty: "Especialista em Tratamento Avançado dos Glúteos. Estética Feminina em Geral, Harmonização Facial e Procedimentos Invasivos como Lipoaspirações.",
     instagram: "https://www.instagram.com/dralayannepaixao",
     image: draLayanneImg,
