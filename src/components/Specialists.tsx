@@ -17,6 +17,19 @@ import draThalitaImg from "@/assets/dra-thalita.jpg";
 
 const specialists = [
   {
+    name: "Dr. Carlos J. Gaspar Jr",
+    role: "Founder & Cirurgião Plástico",
+    specialty: "Membro da Sociedade Brasileira de Cirurgia Plástica. Especialista em Laser FOTONA e Cirurgias Plásticas Corporais, Lipoescultura, Abdominoplastia, Cirurgias das Mamas e Blefaroplastias.",
+    instagram: "https://www.instagram.com/drgasparjr",
+    image: drCarlosImg,
+    bio: [
+      "Fundador da Clínica Unyca",
+      "Cristão e pai dos gêmeos Lucas & Laura",
+      "Especialista em Laser FOTONA",
+      "Comprometido com estilo de vida saudável de suas pacientes",
+    ]
+  },
+  {
     name: "Dra. Luísa",
     role: "Ginecologista",
     specialty: "Especialista em Menopausa e Climatério. Estética e Laser da Região Íntima. Cirurgias de Ninfoplastia e Rejuvenescimento Íntimo.",
@@ -66,19 +79,6 @@ const specialists = [
       "Ex-atleta da Seleção Brasileira de Natação",
       "Pós-graduação em Dermatologia, Tricologia e Transplante Capilar",
       "Guerreira, detalhista e comprometida com resultados",
-    ]
-  },
-  {
-    name: "Dr. Carlos J. Gaspar Jr",
-    role: "Cirurgião Plástico",
-    specialty: "Membro da Sociedade Brasileira de Cirurgia Plástica. Especialista em Laser FOTONA e Cirurgias Plásticas Corporais, Lipoescultura, Abdominoplastia, Cirurgias das Mamas e Blefaroplastias.",
-    instagram: "https://www.instagram.com/drgasparjr",
-    image: drCarlosImg,
-    bio: [
-      "Cristão e pai dos gêmeos Lucas & Laura",
-      "Especialista em Laser FOTONA",
-      "Adora esportes, especialmente academia e musculação",
-      "Comprometido com estilo de vida saudável de suas pacientes",
     ]
   },
   {

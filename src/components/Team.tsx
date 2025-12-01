@@ -4,8 +4,15 @@ import teamAngelaImg from "@/assets/team-angela.jpg";
 import teamHelenImg from "@/assets/team-helen.jpg";
 import teamGabrielImg from "@/assets/team-gabriel.jpg";
 import teamMariImg from "@/assets/team-mari.jpg";
+import teamVivianeImg from "@/assets/team-viviane.jpg";
 
 const teamMembers = [
+  {
+    name: "Viviane",
+    role: "Enfermeira e Instrumentadora Responsável",
+    location: "",
+    image: teamVivianeImg,
+  },
   {
     name: "Laura",
     role: "Recepção",
