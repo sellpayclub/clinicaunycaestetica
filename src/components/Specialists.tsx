@@ -14,6 +14,7 @@ import drLuisImg from "@/assets/dr-luis.jpg";
 import draJulianaImg from "@/assets/dra-juliana.jpg";
 import drGustavoImg from "@/assets/dr-gustavo.jpg";
 import draThalitaImg from "@/assets/dra-thalita.jpg";
+import drPauloImg from "@/assets/dr-paulo.jpg";
 
 const specialists = [
   {
@@ -27,6 +28,19 @@ const specialists = [
       "Cristão e pai dos gêmeos Lucas & Laura",
       "Especialista em Laser FOTONA",
       "Comprometido com estilo de vida saudável de suas pacientes",
+    ]
+  },
+  {
+    name: "Dr. Paulo Hvenegaard",
+    role: "Cirurgião Plástico",
+    specialty: "Membro da Sociedade Brasileira de Cirurgia Plástica com mais de 40 anos de experiência. Especialista em Lifting Facial. Rejuvenescer sem perder a naturalidade.",
+    instagram: "https://www.instagram.com/drpaulohvenegaard",
+    image: drPauloImg,
+    bio: [
+      "Mais de 40 anos de experiência profissional",
+      "Dezenas de milhares de cirurgias e procedimentos realizados",
+      "Atuante na área de ensino médico",
+      "Organizador, presidente e palestrante em congressos internacionais",
     ]
   },
   {
