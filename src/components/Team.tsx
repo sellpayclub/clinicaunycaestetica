@@ -5,6 +5,7 @@ import teamHelenImg from "@/assets/team-helen.jpg";
 import teamGabrielImg from "@/assets/team-gabriel.jpg";
 import teamMariImg from "@/assets/team-mari.jpg";
 import teamVivianeImg from "@/assets/team-viviane.jpg";
+import teamBraulioImg from "@/assets/team-braulio.jpg";
 
 const teamMembers = [
   {
@@ -42,6 +43,12 @@ const teamMembers = [
     role: "Jurídico",
     location: "Tosetti e Zardi Advogados Associados",
     image: teamGabrielImg,
+  },
+  {
+    name: "Braulio",
+    role: "Film Maker",
+    location: "",
+    image: teamBraulioImg,
   },
 ];
 
