@@ -6,6 +6,7 @@ import teamGabrielImg from "@/assets/team-gabriel.jpg";
 import teamMariImg from "@/assets/team-mari.jpg";
 import teamVivianeImg from "@/assets/team-viviane.jpg";
 import teamBraulioImg from "@/assets/team-braulio.jpg";
+import teamMayaraImg from "@/assets/team-mayara.jpg";
 
 const teamMembers = [
   {
@@ -13,6 +14,12 @@ const teamMembers = [
     role: "Enfermeira e Instrumentadora Responsável",
     location: "",
     image: teamVivianeImg,
+  },
+  {
+    name: "Mayara",
+    role: "Recepção",
+    location: "Alphaville",
+    image: teamMayaraImg,
   },
   {
     name: "Laura",
