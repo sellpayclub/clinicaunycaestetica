@@ -21,7 +21,7 @@ const teamMembers = [
     role: "Recepção",
     location: "Alphaville",
     image: teamMayaraImg,
-    imagePosition: "center 10%",
+    imagePosition: "center 0%",
   },
   {
     name: "Laura",
