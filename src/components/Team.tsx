@@ -14,48 +14,56 @@ const teamMembers = [
     role: "Enfermeira e Instrumentadora Responsável",
     location: "",
     image: teamVivianeImg,
+    imagePosition: "center 20%",
   },
   {
     name: "Mayara",
     role: "Recepção",
     location: "Alphaville",
     image: teamMayaraImg,
+    imagePosition: "center 10%",
   },
   {
     name: "Laura",
     role: "Recepção",
     location: "Osasco",
     image: teamLauraImg,
+    imagePosition: "center 20%",
   },
   {
     name: "Angela",
     role: "Agente de Higienização",
     location: "Alphaville",
     image: teamAngelaImg,
+    imagePosition: "center 20%",
   },
   {
     name: "Helen",
     role: "Gerente Administrativo e Financeiro",
     location: "",
     image: teamHelenImg,
+    imagePosition: "center 20%",
   },
   {
     name: "Mari",
     role: "Concierge",
     location: "Osasco e Alphaville",
     image: teamMariImg,
+    imagePosition: "center 20%",
   },
   {
     name: "Gabriel Tosetti",
     role: "Jurídico",
     location: "Tosetti e Zardi Advogados Associados",
     image: teamGabrielImg,
+    imagePosition: "center 20%",
   },
   {
     name: "Braulio",
     role: "Film Maker",
     location: "",
     image: teamBraulioImg,
+    imagePosition: "center 20%",
   },
 ];
 
@@ -85,7 +93,8 @@ const Team = () => {
                   <img 
                     src={member.image}
                     alt={member.name}
-                    className="w-full h-full object-cover object-[center_20%] transition-transform duration-700 group-hover:scale-110"
+                    style={{ objectPosition: member.imagePosition }}
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 </div>
