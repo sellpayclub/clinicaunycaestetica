@@ -15,6 +15,7 @@ import draJulianaImg from "@/assets/dra-juliana.jpg";
 import drGustavoImg from "@/assets/dr-gustavo.jpg";
 import draThalitaImg from "@/assets/dra-thalita.jpg";
 import drPauloImg from "@/assets/dr-paulo.jpg";
+import dianeGuidoImg from "@/assets/diane-guido.jpg";
 
 const specialists = [
   {
@@ -210,6 +211,19 @@ const specialists = [
       "Formada também em Administração e Gestão da Qualidade",
       "Mais de 8 anos de experiência em saúde, estética e bem-estar",
       "Resultados naturais, seguros e que elevam a autoconfiança",
+    ]
+  },
+  {
+    name: "Diane Guido",
+    role: "Biomédica",
+    specialty: "Especialista em Terapia Endovenosa, Saúde e Bem-estar. Transforma consultas em experiências e tratamentos em resultados reais.",
+    instagram: "#",
+    image: dianeGuidoImg,
+    bio: [
+      "Biomédica apaixonada por saúde e ciência + cuidado real",
+      "Ex-atleta de handebol e futebol",
+      "Especialista em terapias endovenosas",
+      "Transparência, bom humor e zero enrolação",
     ]
   },
 ];
