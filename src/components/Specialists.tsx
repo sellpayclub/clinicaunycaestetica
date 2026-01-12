@@ -1,6 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Instagram } from "lucide-react";
-import draLuisaImg from "@/assets/dra-luisa.jpg";
 import draLayanneImg from "@/assets/dra-layanne.jpg";
 import draRebecaImg from "@/assets/dra-rebeca.jpg";
 import draThaysImg from "@/assets/dra-thays.jpg";
@@ -13,7 +12,6 @@ import draCrisImg from "@/assets/dra-cris.jpg";
 import drLuisImg from "@/assets/dr-luis.jpg";
 import draJulianaImg from "@/assets/dra-juliana.jpg";
 import drGustavoImg from "@/assets/dr-gustavo.jpg";
-import draThalitaImg from "@/assets/dra-thalita.jpg";
 import drPauloImg from "@/assets/dr-paulo.jpg";
 import dianeGuidoImg from "@/assets/diane-guido.jpg";
 
@@ -42,19 +40,6 @@ const specialists = [
       "Dezenas de milhares de cirurgias e procedimentos realizados",
       "Atuante na área de ensino médico",
       "Organizador, presidente e palestrante em congressos internacionais",
-    ]
-  },
-  {
-    name: "Dra. Luísa",
-    role: "Ginecologista",
-    specialty: "Especialista em Menopausa e Climatério. Estética e Laser da Região Íntima. Cirurgias de Ninfoplastia e Rejuvenescimento Íntimo.",
-    instagram: "https://www.instagram.com/luisagineco",
-    image: draLuisaImg,
-    bio: [
-      "Ginecologista pela UFPI",
-      "Ginecologia Endócrina pela USP-SP",
-      "Medicina com ética e respeito",
-      "Defensora de um estilo de vida saudável",
     ]
   },
   {
@@ -198,19 +183,6 @@ const specialists = [
       "Dr. Rafael: 7 anos de experiência em Milão, Itália",
       "Técnica minimamente invasiva para lentes sem desgaste",
       "Transformação do sorriso em apenas 2 sessões - Lente com Cara de Dente",
-    ]
-  },
-  {
-    name: "Dra. Thalita",
-    role: "Biomédica Esteta",
-    specialty: "Especialista em Harmonização Facial (Perfiloplastia), Laser Fotona, Laser de CO₂, Bioestimulador de Colágeno, Ultrassom Micro e Macro Focado e Protocolos de Rejuvenescimento com Peeling Químico.",
-    instagram: "#",
-    image: draThalitaImg,
-    bio: [
-      "Biomédica com Pós-graduação em Biomedicina Estética Avançada",
-      "Formada também em Administração e Gestão da Qualidade",
-      "Mais de 8 anos de experiência em saúde, estética e bem-estar",
-      "Resultados naturais, seguros e que elevam a autoconfiança",
     ]
   },
   {
