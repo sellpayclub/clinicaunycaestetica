@@ -2,7 +2,6 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Instagram } from "lucide-react";
 import draLayanneImg from "@/assets/dra-layanne.jpg";
 import draRebecaImg from "@/assets/dra-rebeca.jpg";
-import draThaysImg from "@/assets/dra-thays.jpg";
 import drCarlosImg from "@/assets/dr-carlos.jpg";
 import drAlexandreImg from "@/assets/dr-alexandre.jpg";
 import draStellaImg from "@/assets/dra-stella.jpg";
