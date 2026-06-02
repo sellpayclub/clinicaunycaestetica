@@ -14,20 +14,6 @@ const teamMembers = [
     imagePosition: "center 20%",
   },
   {
-    name: "Mayara",
-    role: "Recepção",
-    location: "Alphaville",
-    image: teamMayaraImg,
-    imagePosition: "center 0%",
-  },
-  {
-    name: "Laura",
-    role: "Recepção",
-    location: "Osasco",
-    image: teamLauraImg,
-    imagePosition: "center 20%",
-  },
-  {
     name: "Angela",
     role: "Agente de Higienização",
     location: "Alphaville",
@@ -39,13 +25,6 @@ const teamMembers = [
     role: "Gerente Administrativo e Financeiro",
     location: "",
     image: teamHelenImg,
-    imagePosition: "center 20%",
-  },
-  {
-    name: "Mari",
-    role: "Concierge",
-    location: "Osasco e Alphaville",
-    image: teamMariImg,
     imagePosition: "center 20%",
   },
   {
