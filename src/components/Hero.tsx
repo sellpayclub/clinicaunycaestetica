@@ -55,7 +55,7 @@ const Hero = () => {
           
           {/* Specialties */}
           <p className="text-lg md:text-2xl text-primary-foreground/80 mb-10 font-light px-4">
-            Dermatologia | Nutrologia | Ginecologia
+            Dermatologia | Nutrologia | Ginecologia | Cirurgia Plástica
           </p>
           
           {/* CTA Button */}
