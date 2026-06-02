@@ -43,12 +43,14 @@ const Hero = () => {
           </h1>
           
           {/* Services */}
-          <div className="flex flex-col md:flex-row flex-wrap justify-center gap-2 md:gap-6 mb-8 text-primary-foreground/90 px-4">
-            <span className="text-base md:text-xl font-medium">Cirurgias Premium</span>
+          <div className="flex flex-col md:flex-row flex-wrap justify-center gap-2 md:gap-4 mb-8 text-primary-foreground/90 px-4">
+            <span className="text-base md:text-lg font-medium">Cirurgia Plástica Premium</span>
             <span className="hidden md:inline text-luxury-gold text-2xl">•</span>
-            <span className="text-base md:text-xl font-medium">Fotona</span>
+            <span className="text-base md:text-lg font-medium">Fotona</span>
             <span className="hidden md:inline text-luxury-gold text-2xl">•</span>
-            <span className="text-base md:text-xl font-medium">Cuidados Multidisciplinares</span>
+            <span className="text-base md:text-lg font-medium">Medicina Regenerativa</span>
+            <span className="hidden md:inline text-luxury-gold text-2xl">•</span>
+            <span className="text-base md:text-lg font-medium">Cuidados Multidisciplinares</span>
           </div>
           
           {/* Specialties */}
