@@ -1,12 +1,9 @@
 import { Card, CardContent } from "@/components/ui/card";
-import teamLauraImg from "@/assets/team-laura.jpg";
 import teamAngelaImg from "@/assets/team-angela.jpg";
 import teamHelenImg from "@/assets/team-helen.jpg";
 import teamGabrielImg from "@/assets/team-gabriel.jpg";
-import teamMariImg from "@/assets/team-mari.jpg";
 import teamVivianeImg from "@/assets/team-viviane.jpg";
 import teamBraulioImg from "@/assets/team-braulio.jpg";
-import teamMayaraImg from "@/assets/team-mayara.jpg";
 
 const teamMembers = [
   {
@@ -14,20 +11,6 @@ const teamMembers = [
     role: "Enfermeira e Instrumentadora Responsável",
     location: "",
     image: teamVivianeImg,
-    imagePosition: "center 20%",
-  },
-  {
-    name: "Mayara",
-    role: "Recepção",
-    location: "Alphaville",
-    image: teamMayaraImg,
-    imagePosition: "center 0%",
-  },
-  {
-    name: "Laura",
-    role: "Recepção",
-    location: "Osasco",
-    image: teamLauraImg,
     imagePosition: "center 20%",
   },
   {
@@ -42,13 +25,6 @@ const teamMembers = [
     role: "Gerente Administrativo e Financeiro",
     location: "",
     image: teamHelenImg,
-    imagePosition: "center 20%",
-  },
-  {
-    name: "Mari",
-    role: "Concierge",
-    location: "Osasco e Alphaville",
-    image: teamMariImg,
     imagePosition: "center 20%",
   },
   {
