@@ -42,10 +42,10 @@ const Footer = () => {
                 </div>
                 <div className="text-sm">
                   <a 
-                    href="tel:+5511993932696" 
+                    href="tel:+5511930637398" 
                     className="text-primary-foreground/80 hover:text-luxury-gold transition-colors"
                   >
-                    (11) 99393-2696
+                    (11) 93063-7398
                   </a>
                 </div>
               </div>
@@ -77,7 +77,7 @@ const Footer = () => {
                 </div>
                 <div className="text-sm">
                   <p className="text-primary-foreground/80 leading-relaxed">
-                    Entrada pela Rua Ana Pereira de Melo<br />
+                    Rua Ana Pereira de Melo<br />
                     R. Dep. Emílio Carlos, 253 - Sala 1010<br />
                     Vila Campesina, Osasco - SP, 06023-080
                   </p>
