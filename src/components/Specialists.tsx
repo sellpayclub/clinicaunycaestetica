@@ -2,7 +2,6 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Instagram } from "lucide-react";
 import draLayanneImg from "@/assets/dra-layanne.jpg";
 import draRebecaImg from "@/assets/dra-rebeca.jpg";
-import draThaysImg from "@/assets/dra-thays.jpg";
 import drCarlosImg from "@/assets/dr-carlos.jpg";
 import drAlexandreImg from "@/assets/dr-alexandre.jpg";
 import draStellaImg from "@/assets/dra-stella.jpg";
@@ -66,19 +65,6 @@ const specialists = [
       "Extensão em hormônios e implantes hormonais",
       "Especialização em Lipedema",
       "Transformando, fortalecendo e empoderando vidas",
-    ]
-  },
-  {
-    name: "Dra. Thays",
-    role: "Médica Tricologista",
-    specialty: "Especialista em Transplante Capilar e Tratamentos Capilares. Expertise em Tricologia e Procedimentos Avançados para Saúde dos Cabelos.",
-    instagram: "https://www.instagram.com/dra.thaystamaributi",
-    image: draThaysImg,
-    bio: [
-      "Formação em Nutrição e Medicina",
-      "Ex-atleta da Seleção Brasileira de Natação",
-      "Pós-graduação em Dermatologia, Tricologia e Transplante Capilar",
-      "Guerreira, detalhista e comprometida com resultados",
     ]
   },
   {
