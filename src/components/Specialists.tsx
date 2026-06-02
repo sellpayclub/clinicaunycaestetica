@@ -68,19 +68,6 @@ const specialists = [
     ]
   },
   {
-    name: "Dra. Thays",
-    role: "Médica Tricologista",
-    specialty: "Especialista em Transplante Capilar e Tratamentos Capilares. Expertise em Tricologia e Procedimentos Avançados para Saúde dos Cabelos.",
-    instagram: "https://www.instagram.com/dra.thaystamaributi",
-    image: draThaysImg,
-    bio: [
-      "Formação em Nutrição e Medicina",
-      "Ex-atleta da Seleção Brasileira de Natação",
-      "Pós-graduação em Dermatologia, Tricologia e Transplante Capilar",
-      "Guerreira, detalhista e comprometida com resultados",
-    ]
-  },
-  {
     name: "Dr. Alexandre Palaro Braga",
     role: "Otorrinolaringologista",
     specialty: "Especialista em Rinologia e Cirurgias da Face com Ênfase em Rinoplastia. Chefe do Ambulatório de Rinologia e Plástica Facial do HCFMB Unesp.",
