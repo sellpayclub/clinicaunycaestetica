@@ -1,22 +1,27 @@
-Confirmado: o preview está correto e não mostra Dra. Thays, mas o site publicado/domínio customizado ainda carrega um bundle antigo (`assets/index-DjQplw_c.js`) e por isso mostra Dra. Thays. A publicação está pública, então não é bloqueio de privacidade.
+## Plano para resolver agora
 
-Plano de ação:
+1. **Não alterar mais o código**
+   - O código já está correto no preview e no repositório.
+   - O problema não é mais componente, imagem, cache local ou GitHub.
 
-1. Forçar uma nova versão real do frontend
-   - Fazer uma pequena alteração visível/identificável e segura no código já correto, para garantir que o sistema gere um novo bundle com hash diferente.
-   - Manter a Dra. Thays removida da lista de especialistas.
+2. **Forçar a republicação pelo Lovable**
+   - Abrir o fluxo de publicação do projeto.
+   - Usar **Publish → Update** para gerar um novo bundle JS/CSS.
+   - O resultado esperado é parar de servir `index-DjQplw_c.js` e passar a servir um novo arquivo `assets/index-*.js`.
 
-2. Validar no preview
-   - Confirmar novamente que o preview não contém `Dra. Thays`, `Tricologista` ou o bundle antigo.
+3. **Validar a URL publicada oficial**
+   - Conferir `https://clinicaunycaestetica.lovable.app` após o update.
+   - Confirmar que a seção de especialistas não mostra Dra. Thays.
+   - Confirmar que o HTML publicado referencia um bundle novo, não `index-DjQplw_c.js`.
 
-3. Republicar corretamente
-   - Abrir o fluxo de publicação para usar `Publish → Update`.
-   - Depois da publicação, validar o domínio `.lovable.app` e o domínio customizado `clinicaunycaestetica.com`.
+4. **Validar o domínio customizado**
+   - Conferir `https://clinicaunycaestetica.com`.
+   - Se o `.lovable.app` estiver atualizado e o `.com` continuar antigo, o problema é conexão/roteamento do domínio customizado.
 
-4. Se o domínio customizado continuar antigo após o `.lovable.app` atualizar
-   - Tratar como problema de roteamento/DNS/domínio customizado, não de código.
-   - Verificar se o domínio está redirecionando para `www.clinicaunycaestetica.com` e se ambos (`clinicaunycaestetica.com` e `www.clinicaunycaestetica.com`) estão conectados ao mesmo projeto.
-   - Orientar ajuste em Project Settings → Domains, se necessário.
+5. **Se o domínio continuar preso na versão antiga**
+   - Verificar em **Project Settings → Domains** se `clinicaunycaestetica.com` e `www.clinicaunycaestetica.com` estão conectados ao projeto correto.
+   - Garantir que o domínio primário e o redirecionamento `www`/sem `www` apontam para a mesma publicação.
 
-Resultado esperado:
-- Preview, `clinicaunycaestetica.lovable.app` e `clinicaunycaestetica.com` exibindo a mesma versão, sem Dra. Thays.
+## O que precisa acontecer
+
+Você precisa aprovar a execução para eu tentar conduzir a validação/publicação pelo fluxo disponível aqui. Se a ferramenta não permitir clicar no botão de publicação diretamente, eu vou te passar exatamente onde clicar e depois valido as URLs publicadas.
