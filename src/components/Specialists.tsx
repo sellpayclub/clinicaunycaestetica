@@ -188,7 +188,7 @@ const specialists = [
 
 const Specialists = () => {
   return (
-    <section className="py-20 bg-background">
+    <section className="py-20 bg-background" data-publish-version="specialists-thays-removed-2026-06-04">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
