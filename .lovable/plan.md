@@ -1,20 +1,22 @@
-Encontrei a causa: o preview já está correto, mas o site publicado ainda está servindo uma versão antiga.
+Confirmado: o preview está correto e não mostra Dra. Thays, mas o site publicado/domínio customizado ainda carrega um bundle antigo (`assets/index-DjQplw_c.js`) e por isso mostra Dra. Thays. A publicação está pública, então não é bloqueio de privacidade.
 
-No preview aparecem corretamente:
-- Hero: “Cirurgia Plástica Premium”, “Medicina Regenerativa” e “Cirurgia Plástica” no final.
-- Rodapé: telefone (11) 93063-7398 nas duas unidades e “Rua Ana Pereira de Melo”.
-- Equipe: sem Mari, Laura e Mayara.
-- Especialistas: sem Dra. Thays.
+Plano de ação:
 
-No domínio publicado ainda aparece a versão antiga:
-- Hero antigo: “Cirurgias Premium”, sem Medicina Regenerativa e sem Cirurgia Plástica no final.
-- Rodapé antigo: Alphaville com (11) 99393-2696 e “Entrada pela Rua Ana Pereira de Melo”.
-- Equipe antiga: ainda com Mayara, Laura e Mari.
-- Especialistas: ainda com Dra. Thays.
+1. Forçar uma nova versão real do frontend
+   - Fazer uma pequena alteração visível/identificável e segura no código já correto, para garantir que o sistema gere um novo bundle com hash diferente.
+   - Manter a Dra. Thays removida da lista de especialistas.
 
-Plano para corrigir:
-1. Não alterar o conteúdo do site, porque o código atual já está certo no preview.
-2. Forçar uma nova publicação/atualização do frontend para que o domínio público receba o build mais recente.
-3. Depois da publicação, verificar novamente o domínio `clinicaunycaestetica.com` e confirmar que ele mostra os mesmos dados do preview.
+2. Validar no preview
+   - Confirmar novamente que o preview não contém `Dra. Thays`, `Tricologista` ou o bundle antigo.
 
-Observação importante: a visibilidade do site está pública e não há erro de acesso; o problema é somente que o domínio publicado está apontando para um build antigo.
+3. Republicar corretamente
+   - Abrir o fluxo de publicação para usar `Publish → Update`.
+   - Depois da publicação, validar o domínio `.lovable.app` e o domínio customizado `clinicaunycaestetica.com`.
+
+4. Se o domínio customizado continuar antigo após o `.lovable.app` atualizar
+   - Tratar como problema de roteamento/DNS/domínio customizado, não de código.
+   - Verificar se o domínio está redirecionando para `www.clinicaunycaestetica.com` e se ambos (`clinicaunycaestetica.com` e `www.clinicaunycaestetica.com`) estão conectados ao mesmo projeto.
+   - Orientar ajuste em Project Settings → Domains, se necessário.
+
+Resultado esperado:
+- Preview, `clinicaunycaestetica.lovable.app` e `clinicaunycaestetica.com` exibindo a mesma versão, sem Dra. Thays.
